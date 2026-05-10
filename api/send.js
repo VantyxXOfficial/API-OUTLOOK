@@ -22,7 +22,7 @@ export default async function handler(req, res) {
     const domain = (email.split('@')[1] || '').toLowerCase();
 
     let smtpConfig;
-    if (['outlook.com', 'hotmail.com', 'live.com', 'live.co.id', 'msn.com'].includes(domain)) {
+    if (['outlook.com', 'outlook.co.id', 'hotmail.com', 'live.com', 'live.co.id', 'msn.com'].includes(domain)) {
         smtpConfig = {
             host: 'smtp-mail.outlook.com',
             port: 587,
