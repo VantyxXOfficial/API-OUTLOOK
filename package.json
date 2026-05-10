@@ -1,0 +1,8 @@
+{
+  "name": "api-outlook",
+  "version": "1.0.0",
+  "description": "API email sender untuk Outlook, Yahoo, Zoho, Yandex, iCloud dan provider non-Gmail via SMTP",
+  "dependencies": {
+    "nodemailer": "^6.9.13"
+  }
+}
